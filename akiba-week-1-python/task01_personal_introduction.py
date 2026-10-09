@@ -1,0 +1,17 @@
+full_name = input("please enter your full name: ")
+Id = input("enter your id: ")
+year = input("what is year in uni ")
+university = input("in which university of instituite are you learning currently? ")
+department = input("what is your department? ")
+programming_language = input("what is yoyr preferented programming language?")
+phone_no = int(input("enter your phone number(eg, 0912345678): "))
+
+print("*************************")
+print("AKIBA STUDENT ID")
+
+print(f"Name : {full_name.title()}")
+print(f"ID   : {Id.title()}")
+print(f"Dep't: {department.title()}")
+print(f"Year : {year.title()}")
+print(f"uni  : {university.title()}")
+print(f"phone: {phone_no}")

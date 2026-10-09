@@ -1,0 +1,15 @@
+Akiba_Tasks /
+akiba-week-2-python/
+├── README.md
+├── task_01_even_odd.py
+├── task_02_largest_three.py
+├── task_03_prime_checker.py
+├── task_04_palindrome.py
+├── task_05_sum_digits.py
+├── task_06_fizzbuzz.py
+├── task_07_guessing_game.py
+├── task_08_count_numbers.py
+├── task_09_atm_pin.py
+├── task_10_number_analyzer.py
+│
+└── theory_answers.md

@@ -1,0 +1,18 @@
+Required Structure
+akiba-week1-python/
+│
+├── README.md
+│
+├── task01_personal_introduction.py
+├── task02_student_id.py
+├── task03_rectangle.py
+├── task04_temperature.py
+├── task05_shopping_receipt.py
+├── task06_employee_payslip.py
+├── task07_travel_planner.py
+├── task08_exam_report.py
+├── task09_currency_exchange.py
+├── task10_bmi.py
+│
+└── mini_project/
+    └── student_profile.py

@@ -1,0 +1,13 @@
+full_name = input("please enter your full name: ")
+age = int(input("how old are you? "))
+city = input("where are you born? ")
+university = input("in which university of instituite are you learning currently? ")
+department = input("what is your department? ")
+programming_language = input("what is yoyr preferented programming language?")
+
+print("\n\n###################################\n\n")
+print(f"My name name is {full_name.title()}")
+print(f"I am  {age} years old")
+print(f"I have born and raised in {city.title()} city")
+print(f"I am studying  {department.title()} in {university.title()} ")
+print(f"I am prefereed programming language {programming_language.title()} city")
