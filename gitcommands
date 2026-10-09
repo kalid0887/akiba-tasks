@@ -1,0 +1,4 @@
+git remote add origin git@github.com:kalid0887/akiba-tasks.git
+git branch -M main
+git push -u origin main
+
