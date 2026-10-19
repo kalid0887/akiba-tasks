@@ -1,1 +1,18 @@
-sample
+akiba-week-3-python/
+├── README.md
+├── theory_answers.md
+├── task_01_shopping_receipt.py
+├── task_02_student_analyzer.py
+├── task_03_number_analyzer.py
+├── task_04_text_analyzer.py
+├── task_05_bank_processor.py
+├── task_06_inventory_controller.py
+├── task_07_password_analyzer.py
+├── task_08_electricity_calculator.py
+├── task_09_quiz_engine.py
+├── task_10_expense_analyzer.py
+└── mini_project/
+    ├── main.py
+    ├── products.py
+    ├── sales.py
+    └── reports.py

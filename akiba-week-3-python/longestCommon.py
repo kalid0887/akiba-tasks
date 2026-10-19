@@ -1,12 +1,23 @@
-strs = []
 
-bzat = int(input("how many words do u want to input in to the list: "))
-for i in range(bzat):
-    word = input(f"enter the index {i} word ")
-    strs.append(word)
-print(strs)
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: str
+        """
+        prefix = strs[0]
 
-for wor in strs:
-    for i in range(len(strs[0])):
-        if strs[wor][i] == strs[wor + 1][i] == strs[wor + 2][i]:
-            print(strs)
+        for word in strs[1:]:
+            i = 0
+
+            while i < len(prefix) and i < len(word):
+                if prefix[i] != word[i]:
+                    break
+                i += 1
+
+            prefix = prefix[:i]
+
+            if prefix == "":
+                return ""
+
+        return prefix
