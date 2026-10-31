@@ -1,0 +1,26 @@
+if __name__ == '__main__':
+    scores = []
+    n = int(input())
+    for _ in range(n):
+        name = input()
+        score = float(input())
+        scores.append([name, score])
+        
+    scores.sort(key = lambda x:x[1])
+    index = 0
+    lowest = scores[0][1]
+    second_lowest = 0
+    for i in range(n):
+        if scores[i][1] != lowest:
+            second_lowest = scores[i][1]
+            index=1
+            break
+
+    ans = []
+    while index < n and scores[index][1] == second_lowest:
+        ans.append(scores[index][0])
+        index += 1
+
+    ans.sort()
+    for name in ans:
+        print(name)
